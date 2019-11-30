@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+
+}
+
+.quadrato {
+    margin: 4px 0 0 4px;
+    display: inline-block;
+    background-color: white;
+    border-style: outset;
+    border-color: darkgrey;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.quadrato:active{
+    background-color: lightgrey;
+    border-style: inset;
+}
+
+.red {
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
