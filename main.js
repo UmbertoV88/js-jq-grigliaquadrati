@@ -10,9 +10,9 @@ $(document).ready(function() {
     // });
     // predisporre la creazione di un numero random nelle  caselle
 
-    $(".quadrato").each(function(){
-        $(this).text(randomNumber(1, 64));
-    });
+    // $(".quadrato").each(function(){
+    //     $(this).text(randomNumber(1, 64));
+    // });
 
 
     $(".quadrato").click(function(){
@@ -20,7 +20,8 @@ $(document).ready(function() {
             $(this).addClass("green");
         }else{
             $(this).addClass("red");
-            // alert("HAI PERSO!!! ")
+            alert("HAI PERSO!!! ")
+            location.reload();
         }
 
 
