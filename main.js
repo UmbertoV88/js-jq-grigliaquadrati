@@ -19,9 +19,12 @@ $(document).ready(function() {
         if (randomNumber(1, 64) % 2 == 1) {
             $(this).addClass("green");
         }else{
-            $(this).addClass("red");
-            alert("HAI PERSO!!! ")
-            location.reload();
+            for (var i = 0; i < 15; i++) {
+                $(this).addClass("red");
+            }
+
+            // alert("HAI PERSO!!! ")
+            // location.reload();
         }
 
 
